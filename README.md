@@ -16,7 +16,13 @@
 - 3.国家最新纳税标准（系数），属于某一时期的特定固定值，与实例化对象没有关系，考虑如何用static final修饰定义。
 - 4。实例化研究生类时，可采用运行时通过main方法的参数args一次性赋值，也可采用Scanner类实现运行时交互式输入。
 - 5.根据输入情况，要在程序中做异常处理。
-## 三.核心代码   
+
+## 三.实验过程 
+
+## 四.流程图
+- https://github.com/Wcqsss11/Java4/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png
+
+## 五.核心代码   
 
     class Doctor implements Studentjiekou,Teacherjiekou {};      //接入接口
     public void tuition2() {                                     //学生缴纳的学费
@@ -36,23 +42,11 @@
 			System.out.println("检测到您的输入异常，请重新输入:");
 			System.exit(1);
 		}
-## 四.流程图
-- https://github.com/Wcqsss11/Java4/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png
-
-## 核心代码
-    public void setSalary(int Salary);  //声明
-    public void setSalary(int Salary){    }；//实现
-    public class Doctor implements StudentSystem,TeacherSystem{    }；//接入
-    try{         }；   catch(Exception e) {    }；//异常处理
-    if（ ） {        }； else{     }；  //if语句
-    import java.util.Scanner;   //运行输入语句定义
-    Scanner s=new Scanner(System.in);   //运行输入语句
-    
-## 五.实验结果
+## 六.实验结果
 - https://github.com/Wcqsss11/Java4/blob/main/%E5%AE%9E%E9%AA%8C4.png
 - https://github.com/Wcqsss11/Java4/blob/main/%E5%BC%82%E5%B8%B8.png
 
-## 六.程感想
+## 七.程感想
     1.通过这次实验掌握了Java中接口的定义、抽象类和抽象方法的定义；
     2.掌握了定义接口包含接口声明和接口体；
     3.掌握了一个类要在类声明中使用关键字implements声明该类实现一个或多个接口；
