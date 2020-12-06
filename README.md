@@ -37,12 +37,26 @@
 			System.exit(1);
 		}
 ## 四.流程图
+- https://github.com/Wcqsss11/Java4/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png
+
+## 核心代码
+    public void setSalary(int Salary);  //声明
+    public void setSalary(int Salary){    }；//实现
+    public class Doctor implements StudentSystem,TeacherSystem{    }；//接入
+    try{         }；   catch(Exception e) {    }；//异常处理
+    if（ ） {        }； else{     }；  //if语句
+    import java.util.Scanner;   //运行输入语句定义
+    Scanner s=new Scanner(System.in);   //运行输入语句
+    
 ## 五.实验结果
 - https://github.com/Wcqsss11/Java4/blob/main/%E5%AE%9E%E9%AA%8C4.png
 - https://github.com/Wcqsss11/Java4/blob/main/%E5%BC%82%E5%B8%B8.png
+
 ## 六.程感想
     1.通过这次实验掌握了Java中接口的定义、抽象类和抽象方法的定义；
     2.掌握了定义接口包含接口声明和接口体；
     3.掌握了一个类要在类声明中使用关键字implements声明该类实现一个或多个接口；
     4.掌握了口的定义形式以及接口的实现方法；
+    5.掌握了Scanner的用法运行语句输出；
+    6.掌握了try的用法，来处理异常机制。
     
