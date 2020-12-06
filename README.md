@@ -18,7 +18,27 @@
 - 5.根据输入情况，要在程序中做异常处理。
 
 ## 三.实验过程 
+- 1.创建接口
+       
+      public abstract void setTuition(int Tuition);         //学生学费
+      public abstract void getTuition(int Tuition);}        //查询学生学费
+- 2.创建doctor类接入接口，定义类，并实现接口。
 
+      class Doctor implements Studentjiekou,Teacherjiekou    
+      { String Name;
+      String Sex;}
+      public void setSalary(int Salary) 
+      {this.salary = Salary;}
+- 3.计算纳税金额，做出程序异常处理。
+
+      try {
+      age1 = scanner.nextInt();、
+      }catch(Exception s){
+      System.out.println("检测到您的输入异常，请重新输入:");
+      System.exit(1);
+      }
+
+      
 ## 四.流程图
 - https://github.com/Wcqsss11/Java4/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png
 
