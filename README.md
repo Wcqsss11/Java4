@@ -63,8 +63,8 @@
 			System.exit(1);
 		}
 ## 六.实验结果
-- https://github.com/Wcqsss11/Java4/blob/main/%E5%AE%9E%E9%AA%8C4.png
-- https://github.com/Wcqsss11/Java4/blob/main/%E5%BC%82%E5%B8%B8.png
+![](https://github.com/Wcqsss11/Java4/blob/main/%E5%AE%9E%E9%AA%8C4.png)
+![](https://github.com/Wcqsss11/Java4/blob/main/%E5%BC%82%E5%B8%B8.png)
 
 ## 七.程感想
     1.通过这次实验掌握了Java中接口的定义、抽象类和抽象方法的定义；
