@@ -32,7 +32,7 @@
 - 3.计算纳税金额，做出程序异常处理。
 
       try {
-      age1 = scanner.nextInt();、
+      age1 = scanner.nextInt();
       }catch(Exception s){
       System.out.println("检测到您的输入异常，请重新输入:");
       System.exit(1);
